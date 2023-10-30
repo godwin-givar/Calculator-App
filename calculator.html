@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css ">
+</head>
+<body>
+    <!-- Main -->
+    <div class="container">
+        <!-- display screen -->
+        <div class="display-box">
+            <input type="text" name="display" id="display">
+        </div>
+        <!-- Buttons -->
+        <div class="buttons-container">
+            <div class="buttons">
+                <button class="action-button-series1" onclick="clearScreen()">C</button>
+                <button class="action-button-series1">←</button>
+                <button class="action-button-series1">%</button>
+                <button class="action-button-series2">÷</button>
+                <button onclick="displayData('7')">7</button>
+                <button onclick="displayData('8')">8</button>
+                <button onclick="displayData('9')">9</button>
+                <button class="action-button-series2">X</button>
+                <button onclick="displayData('4')">4</button>
+                <button onclick="displayData('5')">5</button>
+                <button onclick="displayData('6')">6</button>
+                <button class="action-button-series2">-</button>
+                <button onclick="displayData('1')">1</button>
+                <button onclick="displayData('2')">2</button>
+                <button onclick="displayData('3')">3</button>
+                <button class="action-button-series2">+</button>
+                <button class="button-grow" onclick="displayData('0')">0</button>
+                <button onclick="displayData('.')">.</button>
+                <button class="action-button-series2">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./calc.js" type="text/javascript"></script>
+</body>
+</html>
